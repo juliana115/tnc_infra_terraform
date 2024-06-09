@@ -1,4 +1,4 @@
-# Terraform Project for AWS
+# Terraform to AWS Deployment 
 
 This Terraform project creates a VPC, 2 subnets, and an EC2 instance running an Apache web server that serves a static HTML page on port 80 that returns the text ‘Hello, TNC!’. Port 22 is open only to an allowed IP, you can add your IP on terraform.tfvars. It also generates an SSH key pair, stores it in AWS Secrets Manager, and uses it to access the EC2 instance.
 
