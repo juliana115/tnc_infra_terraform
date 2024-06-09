@@ -88,5 +88,5 @@ Successfull SSH from Allowed IP
 
 ## Notes
 
-Ensure the AMI ID in `main.tf` with your preferred version, this project uses ubuntu 22.04 AMI for the `us-west-2` region.
+If you preferred a different AMI ID, update this  in `main.tf` with your preferred version, this project uses Ubuntu 22.04 AMI for the `us-west-2` region.
 Ref: [Find AMI for EC2 ](https://cloud-images.ubuntu.com/locator/ec2/)
